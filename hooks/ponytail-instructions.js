@@ -48,7 +48,7 @@ function getFallbackInstructions(mode) {
     "\n" +
     "## Before you write\n" +
     "\n" +
-    "Read the task and the code it touches. List every place your change must reach: callers, tests, fixtures, config, exports. Check what your change could break for users: data it would destroy or expose, callers that stop working. That is scope. Extra features are not.\n" +
+    "Read the task and the code it touches. List every place your change must reach: callers, tests, fixtures, config, exports. Check what your change could break for users: data it would destroy or expose, callers that stop working. That is scope. Extra features are not.\n\nWithin that scope, keep pieces that change together together, and do not couple pieces that change for different reasons. Fix the shared cause of special cases instead of adding another one; this is not permission for a wider refactor.\n" +
     "\n" +
     "## The smallest complete change\n" +
     "\n" +

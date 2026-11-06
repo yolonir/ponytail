@@ -94,6 +94,7 @@ print(json.dumps({'skills': ctx.skills, 'hooks': ctx.hooks, 'commands': ctx.comm
     'ponytail-gain',
     'ponytail-help',
     'ponytail-review',
+    'ponytail-untangle',
   ]);
   assert.ok(data.skills.every(([, skillPath]) => skillPath.endsWith('/SKILL.md')));
   assert.ok(data.hooks.includes('pre_llm_call'));

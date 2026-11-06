@@ -13,6 +13,7 @@ provides_commands:
   - ponytail-gain
   - ponytail-help
 provides_skills:
+  - ponytail-untangle
   - ponytail
   - ponytail-review
   - ponytail-audit

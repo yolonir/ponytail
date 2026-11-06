@@ -182,6 +182,7 @@ Only install ponytail from `DietrichGebert/ponytail` on GitHub or `@dietrichgebe
 | `/ponytail band import` | Claude Code only: add your past Claude Code sessions to the board, with their cost, agent time and tokens. |
 | `/ponytail-review` | Review the current diff like the senior dev who gets paged when it breaks: bugs, security, real load, risky code without a test, slow paths, and what to cut. Each finding says what the code does, what goes wrong, how to fix it, and what happens if you don't. Name a target in plain words to narrow or widen it: `uncommitted`, `staged`, `branch`, or a PR link. |
 | `/ponytail-audit` | The same check for the whole repo, most important first. |
+| `/ponytail-untangle [area]` | Refactor a selected area: find hidden links, needless coupling and surplus, fix shared causes, then verify behavior. Unlike audit, changes code. Explicit invocation only; no implicit whole-repo cleanup. Pi and OpenCode expose the command; skill-capable hosts can invoke the bundled skill. |
 | `/ponytail-debt` | Harvest the `shortcut:` comments you've deferred into a ledger, so "later" doesn't become "never". |
 | `/ponytail-gain` | Show the measured impact scoreboard (less code, less cost, more speed) from the benchmark. |
 | `/ponytail-help` | Quick reference for the commands above. |

@@ -175,6 +175,11 @@ export default function ponytailExtension(pi) {
     handler: (args, ctx) => sendAlias("/skill:ponytail-gain", args, ctx),
   });
 
+  pi.registerCommand("ponytail-untangle", {
+    description: "Refactor a named area with /skill:ponytail-untangle",
+    handler: (args, ctx) => sendAlias("/skill:ponytail-untangle", args, ctx),
+  });
+
   pi.registerCommand("ponytail-debt", {
     description: "Run /skill:ponytail-debt",
     handler: (args, ctx) => sendAlias("/skill:ponytail-debt", args, ctx),
